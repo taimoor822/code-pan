@@ -1,8 +1,8 @@
 {
+  "homepage": "https://taimoor822.github.io/code-pan",
   "name": "code-pan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://taimoor822.github.io/code-pan",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -20,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
